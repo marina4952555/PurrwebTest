@@ -1,0 +1,34 @@
+{
+  "name": "purrwebtest",
+  "version": "1.0.0",
+  "description": "Тестовое задание для Purrweb",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "author": "Starodumova Marina",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "browser-sync": "^2.26.7",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.3.6",
+    "sass": "^1.38.2"
+  },
+  "dependencies": {
+    "gulp-csso": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
