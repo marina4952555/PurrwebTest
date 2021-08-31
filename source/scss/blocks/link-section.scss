@@ -1,0 +1,15 @@
+.link-section {
+  display: flex;
+  justify-content: center;
+  color: $color-orange;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: $desktop-width){
+  .link-section {
+    padding: 0 0 50px;
+  }
+}

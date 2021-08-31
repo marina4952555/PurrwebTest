@@ -1,0 +1,26 @@
+.footer {
+  background-color: #363636;
+  &__nav-title {
+    color: $color-orange;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  &__link {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &__nav {
+    display: flex;
+  }
+  &__copy {
+    background-color: #252525;
+  }
+  &__copy-text {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 20px;
+  }
+}

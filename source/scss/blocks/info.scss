@@ -1,0 +1,19 @@
+.info {
+  padding: 30px 20px;
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+  }
+  &__text {
+    color: $color-gray;
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: $desktop-width){
+  .info {
+    padding: 114px 137px 97px 160px;
+  }
+}

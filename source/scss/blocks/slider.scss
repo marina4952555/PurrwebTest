@@ -1,0 +1,22 @@
+.slider {
+  margin-top: -1px;
+  color: white;
+  &__wrapper {
+    max-width: 988px;
+    margin: 0 auto;
+  }
+  &__heading {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: $desktop-width){
+
+}

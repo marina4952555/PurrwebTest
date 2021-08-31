@@ -1,0 +1,13 @@
+.nav {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item-link {
+    text-transform: uppercase;
+    font-family: 'ProximaNova';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+}

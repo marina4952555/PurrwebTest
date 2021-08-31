@@ -14,74 +14,77 @@
   <title>Salt</title>
 </head>
 <body>
-  <header class="header">
-    <picture class="header__logo">
-      <source media="(min-width: 768px)" src="img/svg/desktop/logo.svg">
-      <img src="img/svg/mobile/logo.svg" alt="logo salt">
-    </picture> 
-    <div class="header__nav nav">
-      <button class="nav__button nav__button--closed" aria-label="open menu"></button> 
-      <nav class="nav__wrapper nav--hide">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__item-link nav__item-link--active">Home</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__item-link">Products</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__item-link">Services</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__item-link">Resources</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__item-link">About</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__item-link">Contact us</a>
-          </li>
-        </ul>
-      </nav>           
+  <header class="header">  
+    <div class="header__container">
+      <div class="header__top">
+        <img class="header__logo" src="img/svg/logo.svg" alt="logo salt"> 
+        <div class="header__nav nav">
+          <button class="nav__button nav__button--closed" aria-label="open menu"></button> 
+          <nav class="nav__wrapper nav--hide">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__item-link nav__item-link--active">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__item-link">Products</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__item-link">Services</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__item-link">Resources</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__item-link">About</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__item-link">Contact us</a>
+              </li>
+            </ul>
+          </nav>           
+        </div>      
+      </div>
+      <div class="header__slider slider">
+        <h2 class="visually-hidden">Slider</h2>
+        <div class="slider__wrapper">
+          <ul class="slider__list">
+            <li class="slider__item">
+              <h3 class="slider__heading">Device Authentication</h3>
+              <p class="slider__text">
+                SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. 
+                Discover the possibilities with SALT.
+              </p>
+              <button class="slider__slide-button">Get started</button>
+            </li>
+            <!-- <li class="slider__item">
+              <h3 class="slider__heading">Device Authentication</h3>
+              <p class="slider__text">SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. Discover the possibilities with SALT.</p>
+              <button class="slider__slide-button">Get started</button>
+            </li>          
+            <li class="slider__item">
+              <h3 class="slider__heading">Device Authentication</h3>
+              <p class="slider__text">SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. Discover the possibilities with SALT.</p>
+              <button class="slider__slide-button">Get started</button>
+            </li> -->  
+          </ul>
+        </div>
+        <div class="slider__btns-wrapper">
+          <button class="slider__btn slider__btn--active" type="button" aria-label="slide 1"></button>
+          <button class="slider__btn" type="button" aria-label="slide 2"></button>
+          <button class="slider__btn" type="button" aria-label="slide 3"></button>
+        </div>
+      </div>
+      <div class="header__link-section link-section">
+        <h2 class="visually-hidden">Section with button</h2>
+        <div class="link-section__wrapper">
+          <p class="link-section__text">Find out more</p>
+          <button type="button" class="link-section__button" aria-label="find more"></button>
+        </div>
+      </div>
     </div>
   </header>
   <main>
     <h1 class="visually-hidden">Salt Home Page</h1>
-    <section class="slider">
-      <h2 class="visually-hidden">Slider</h2>
-      <div class="slider__wrapper">
-        <ul class="slider__list">
-          <li class="slider__item">
-            <h3 class="slider__heading">Device Authentication</h3>
-            <p class="slider__text">
-              SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. 
-              Discover the possibilities with SALT.
-            </p>
-            <button class="slider__slide-button">Get started</button>
-          </li>
-          <!-- <li class="slider__item">
-            <h3 class="slider__heading">Device Authentication</h3>
-            <p class="slider__text">SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. Discover the possibilities with SALT.</p>
-            <button class="slider__slide-button">Get started</button>
-          </li>          
-          <li class="slider__item">
-            <h3 class="slider__heading">Device Authentication</h3>
-            <p class="slider__text">SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. Discover the possibilities with SALT.</p>
-            <button class="slider__slide-button">Get started</button>
-          </li> -->
-        </ul>
-      </div>
-      <div class="slider__btns-wrapper">
-        <button class="slider__btn slider__btn--active" type="button" aria-label="slide 1"></button>
-        <button class="slider__btn" type="button" aria-label="slide 2"></button>
-        <button class="slider__btn" type="button" aria-label="slide 3"></button>
-      </div>
-    </section>
-    <section class="link-section">
-      <h2 class="visually-hidden">Section with button</h2>
-      <p class="link-section__text">Find out more</p>
-      <button type="button" class="link-section__button" aria-label="find more"></button>
-    </section>
     <section class="statistics">
       <h2 class="visually-hidden">Statistics section</h2>
       <ul class="statistics__list">
@@ -159,17 +162,18 @@
         </picture>
       </div>
     </section>
-    <section class="form">
-      <h2 class="form__title">Readyto get started?</h2>
-        <form>
-          <label class="" for=""></label>
-          <input class="text" id="" type="" required>
-          <label class="" for=""></label>
-          <input class="text" id="" type="" required>
-          <label class="" for=""></label>
-          <input class="text" id="" type="" required>
-          <label class="" for=""></label>
-          <textarea id="" type="" required></textarea>
+    <section class="form-section">
+      <h2 class="form-section__title">Ready to get started?</h2>
+        <form class="form-section__form">
+          <legend>Contact us</legend>
+          <label for="">First Name</label>
+          <input id="" type="text" required>
+          <label for="">Last Name</label>
+          <input id="" type="text" required>
+          <label for="">Email Address</label>
+          <input id="" type="text" required>
+          <label for="">Your message</label>
+          <textarea id="" required></textarea>
           <button type="button">send</button>
         </form>
     </section>
