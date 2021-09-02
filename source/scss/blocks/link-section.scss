@@ -3,13 +3,36 @@
   justify-content: center;
   color: $color-orange;
   &__wrapper {
+    padding-bottom: 53px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  &__text {
+    margin-bottom: 19px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  &__button {
+    width: 61px;
+    height: 71px;
+    background-color: rgba(1, 1, 1, 0);
+    background-image: url('../img/svg/union.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 
 @media (min-width: $desktop-width){
   .link-section {
-    padding: 0 0 50px;
+    padding: 0;
   }
 }

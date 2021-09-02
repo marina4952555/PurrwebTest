@@ -44,42 +44,57 @@
           </nav>           
         </div>      
       </div>
-      <div class="header__slider slider">
-        <h2 class="visually-hidden">Slider</h2>
-        <div class="slider__wrapper">
-          <ul class="slider__list">
-            <li class="slider__item">
+    </div>
+    <div class="header__slider slider">
+      <h2 class="visually-hidden">Slider</h2>
+      <div class="slider__wrapper">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <img class="slider__img" src="img/svg/bird.svg">
+            <div class="slider__content">
               <h3 class="slider__heading">Device Authentication</h3>
               <p class="slider__text">
                 SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. 
                 Discover the possibilities with SALT.
               </p>
-              <button class="slider__slide-button">Get started</button>
-            </li>
-            <!-- <li class="slider__item">
+              <button class="slider__slide-button">Get started</button>  
+            </div>
+          </li>
+          <li class="slider__item">
+            <img class="slider__img" src="img/svg/bird.svg">
+            <div class="slider__content">
               <h3 class="slider__heading">Device Authentication</h3>
-              <p class="slider__text">SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. Discover the possibilities with SALT.</p>
-              <button class="slider__slide-button">Get started</button>
-            </li>          
-            <li class="slider__item">
+              <p class="slider__text">
+                SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. 
+                Discover the possibilities with SALT.
+              </p>
+              <button class="slider__slide-button">Get started</button>  
+            </div>
+          </li>
+          <li class="slider__item">
+            <img class="slider__img" src="img/svg/bird.svg">
+            <div class="slider__content">
               <h3 class="slider__heading">Device Authentication</h3>
-              <p class="slider__text">SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. Discover the possibilities with SALT.</p>
-              <button class="slider__slide-button">Get started</button>
-            </li> -->  
-          </ul>
-        </div>
-        <div class="slider__btns-wrapper">
-          <button class="slider__btn slider__btn--active" type="button" aria-label="slide 1"></button>
-          <button class="slider__btn" type="button" aria-label="slide 2"></button>
-          <button class="slider__btn" type="button" aria-label="slide 3"></button>
-        </div>
+              <p class="slider__text">
+                SALT Group is a world leader in authentication and security.We have a range of services to improve user authentication. 
+                Discover the possibilities with SALT.
+              </p>
+              <button class="slider__slide-button">Get started</button>  
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="header__link-section link-section">
-        <h2 class="visually-hidden">Section with button</h2>
-        <div class="link-section__wrapper">
-          <p class="link-section__text">Find out more</p>
-          <button type="button" class="link-section__button" aria-label="find more"></button>
-        </div>
+      <div class="slider__btns-wrapper">
+        <button class="slider__btn slider__btn--active" type="button" aria-label="slide 1"></button>
+        <button class="slider__btn" type="button" aria-label="slide 2"></button>
+        <button class="slider__btn" type="button" aria-label="slide 3"></button>
+      </div>
+    </div>
+    <div class="header__link-section link-section">
+      <h2 class="visually-hidden">Section with button</h2>
+      <div class="link-section__wrapper">
+        <p class="link-section__text">Find out more</p>
+        <button type="button" class="link-section__button" aria-label="find more"></button>
       </div>
     </div>
   </header>
@@ -106,6 +121,7 @@
       <h2 class="activity__heading">What We Do</h2>
       <ul class="activity__list">
         <li class="activity__item">
+          <img class="activity__img" src="img/svg/device.svg" alt="device">
           <h3 class="activity__title">Device Authentication</h3>
           <p class="activity__text">
             Hardware-based device fingerprinting resilient to cloning, malware and device jailbreak/root. Hardware-level control over the displayed UI independent 
@@ -113,12 +129,14 @@
           </p>
         </li>
         <li class="activity__item">
+          <img class="activity__img" src="img/svg/user.svg" alt="user">
           <h3 class="activity__title">User Authentication</h3>
           <p class="activity__text">
             Verify the identity of users for access control with contemporary biometric connected MFA security tokens.
           </p>
         </li>
         <li class="activity__item">
+          <img class="activity__img" src="img/svg/transaction.svg" alt="transaction">
           <h3 class="activity__title">Transaction Authentication</h3>
           <p class="activity__text">
             High assurance out-of-band authentication h impact transactions and instructions initiated through electronic service delivery channels. 
@@ -126,8 +144,8 @@
           </p>
         </li>
         <li class="activity__item">
-          <h3 class="activity__title">Contemporary
-            <br>authentication methods</h3>
+          <img class="activity__img" src="img/svg/contemporary.svg" alt="contemporary">
+          <h3 class="activity__title">Contemporary authentication methods</h3>
           <p class="activity__text">
             Echidna authentication server to enable adaptive risk-based approach to security through a range of methods for different levels 
             of authentication assurance from SMS OTPs, Challenge/Response, to more contemporary QR code signing and advanced connected mobile security s capable 
@@ -135,6 +153,7 @@
           </p>
         </li>
         <li class="activity__item">
+          <img class="activity__img" src="img/svg/hsm.svg" alt="hsm">
           <h3 class="activity__title">HSM Solutions</h3>
           <p class="activity__text">
             Reseller of Thales nShield HSMs with professional services and subject matter expertise in HSMs, 
@@ -142,6 +161,7 @@
           </p>
         </li>
         <li class="activity__item">
+          <img class="activity__img" src="img/svg/cloud.svg" alt="cloud">
           <h3 class="activity__title">Cloud & IoT Security</h3>
           <p class="activity__text">
             Secure the identity and access of users, devices and Internet of Things connecting into the cloud. 
@@ -151,37 +171,58 @@
       </ul>
     </section>
     <section class="info">
-      <div class="info__left">
-        <h2 class="info__title">Product Spotlight</h2>
-        <p class="info__text">Salt mSign Connected Token is a contemporary mobile security 2FA token for authentication of user identity and verification of transactions independent of the delivery channel that initiated the request.</p>
-        <button class="info__button" type="button">MORE INFO</button>
-      </div>
+      <h2 class="info__title">Product Spotlight</h2>
+      <p class="info__text">Salt mSign Connected Token is a contemporary mobile security 2FA token for authentication of user identity and verification of transactions independent of the delivery channel that initiated the request.</p>
+      <button class="info__button" type="button">MORE INFO</button>
       <div class="info__video">
         <picture>
-          <img class="info__video-img" src="img/" width="" height="" alt="video">
+          <source type="image/webp" media="(min-width: 800px)" srcset="img/video-d@1x.webp 1x, img/video-d@2x.webp 2x, img/video-d@3x.webp 3x">
+          <source type="image/webp" srcset="img/video-m@1x.webp 1x, img/video-m@2x.webp 2x, img/video-m@3x.webp 3x">
+          <source media="(min-width: 800px)" srcset="img/video-d@1x.png 1x, img/video-d@2x.png 2x, img/video-d@3x.png 3x">
+          <img class="info__video-img" src="img/video-m@1x.png" srcset="img/video-m@2x.png 2x" srcset="img/video-m@3x.png 3x" alt="video">
         </picture>
+        <img class="info__video-play" src="img/svg/play.svg" alt="play">
+        <p class="info__video-text">Feature video</p>
+        <p class="info__video-title">msign Connected token</p>
       </div>
     </section>
     <section class="form-section">
-      <h2 class="form-section__title">Ready to get started?</h2>
-        <form class="form-section__form">
-          <legend>Contact us</legend>
-          <label for="">First Name</label>
-          <input id="" type="text" required>
-          <label for="">Last Name</label>
-          <input id="" type="text" required>
-          <label for="">Email Address</label>
-          <input id="" type="text" required>
-          <label for="">Your message</label>
-          <textarea id="" required></textarea>
-          <button type="button">send</button>
-        </form>
+      <div class="form-section__wrapper">
+        <h2 class="form-section__title">
+          Ready
+          <br> 
+          to get started?
+        </h2>
+        <form class="form-section__form" action="">
+          <legend class="form-section__legend">Contact us</legend>
+          <label class="form-section__firstname" for="fistname">
+            <span class="form-section__text">First Name</span>
+            <input id="fistname" name="fistname" type="text" placeholder="First Name" required>
+          </label>
+          <label class="form-section__lastname" for="lastname">
+            <span class="form-section__text">Last Name</span>
+            <input id="lastname" name="lastname" type="text" placeholder="Last Name" required>  
+          </label>
+          <label class="form-section__email" for="email">
+            <span class="form-section__text">Email Address</span>
+            <input id="email" name="email" type="text" placeholder="Email Address" required>
+          </label>
+          <label class="form-section__massage" for="massage">
+            <span class="form-section__text">Your message</span>
+            <textarea id="massage" placeholder="Textarea" required></textarea>
+          </label>
+          <button class="form-section__button" type="submit">send</button>
+        </form>        
+      </div>
     </section>
     <section class="popup">
       <div class="popup__wrapper">
         <button class="popup__hide-button" aria-label="hide popup window"></button>
         <picture>
-          <img class="info__video-img" src="img/" width="" height="" alt="video">
+          <source type="image/webp" media="(min-width: 800px)" srcset="img/video-d@1x.webp 1x, img/video-d@2x.webp 2x, img/video-d@3x.webp 3x">
+          <source type="image/webp" srcset="img/video-m@1x.webp 1x, img/video-m@2x.webp 2x, img/video-m@3x.webp 3x">
+          <source media="(min-width: 800px)" srcset="img/video-d@1x.png 1x, img/video-d@2x.png 2x, img/video-d@3x.png 3x">
+          <img class="info__video-img" src="img/video-m@1x.png" srcset="img/video-m@2x.png 2x" srcset="img/video-m@3x.png 3x" alt="video">
         </picture>
       </div>
     </section>
@@ -189,11 +230,20 @@
   </main>
   <footer class="footer">
     <div class="footer__wrapper">
-      <div class="footer__widget">
-        <!-- <a class="twitter-timeline" href="https://twitter.com/saltgroup?ref_src=twsrc%5Etfw">Tweets by saltgroup</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+      <div class="footer__widget-wrapper">
+        <div class="footer__widget">
+          <div class="footer__widget-top">
+            <img class="footer__widget-img" src="img/svg/twitter.svg" width="36px" height="36px" alt="twitter logo">
+            <div class="footer__widget-text">
+              <a class="footer__widget-link" href="https://twitter.com/saltgroup">&#64;saltgroup</a>
+              <div class="footer__widget-title">Twitter feed</div>
+            </div>
+          </div>
+          <a class="twitter-timeline" href="https://twitter.com/saltgroup?ref_src=twsrc%5Etfw">Tweets by saltgroup</a>
+        </div>         
       </div>
-      <div class="footer__nav">
-        <div class="footer__nav-wrapper">
+      <ul class="footer__nav">
+        <li class="footer__nav-wrapper">
           <h3 class="footer__nav-title">Navigation</h3>
           <ul class="footer__list">
             <li class="footer__item">
@@ -215,8 +265,8 @@
               <a class="footer__link">Contact us</a>
             </li>
           </ul>
-        </div>
-        <div class="footer__nav-wrapper">
+        </li>
+        <li class="footer__nav-wrapper">
           <h3 class="footer__nav-title">Links</h3>
           <ul class="footer__list">
             <li class="footer__item">
@@ -232,30 +282,31 @@
               <a class="footer__link">Privacy</a>
             </li>
           </ul>
-          </div>
-          <div class="footer__nav-wrapper">
-            <h3 class="footer__nav-title">Contact sales</h3>
-            <ul class="footer__list">
-              <li class="footer__item">
-                PHONE:
-                <a class="footer__link" href="tel:+61396144416">+61 3 9614 4416</a>
-              </li>
-              <li class="footer__item">
-                EMAIL:
-                <a class="footer__link" href="mailto:sales@saltgroup.com.au">
-                  <span class="footer__mail">sales@saltgroup.com.au</span>
-                </a>
-              </li>
-            </ul>
-        </div>
-      </div> 
+        </li>
+        <li class="footer__nav-wrapper">
+          <h3 class="footer__nav-title">Contact sales</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              PHONE:
+              <a class="footer__link" href="tel:+61396144416">+61 3 9614 4416</a>
+            </li>
+            <li class="footer__item">
+              EMAIL:
+              <a class="footer__link" href="mailto:sales@saltgroup.com.au">
+                <span class="footer__mail">sales&#64;saltgroup.com.au</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <img class="footer__logo" src="img/svg/logo-footer.svg">
     </div>
     <div class="footer__copy">
-      <span class="footer__copy-text footer__copy-text--bg">© 2017 SALT GROUP</span>
+      <span class="footer__copy-text footer__copy-text--bg">&#169; 2017 SALT GROUP</span>
       <span class="footer__copy-text">ALL RIGHTS RESERVED. WEBSITE BY DORNE CR</span>
     </div>
   </footer>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <!-- <script src="js/all.js"></script> -->
+  <script src="js/all.js"></script>
 </body>
 </html>

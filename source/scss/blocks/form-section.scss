@@ -1,27 +1,135 @@
 .form-section {
-  display: flex;
-  justify-content: space-between;
+  margin: 0 auto 98px;
   background: url(../img/form-bg.png);
   background-position: left top;
   background-size: cover;
+  &__wrapper {
+    padding: 42px 41px 40px 28px;
+    margin: 0 auto;
+    max-width: 1600px;
+    display: grid; 
+  }
   &__title {
+    margin-bottom: 46px;
     color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  &__text {
+    padding-left: 5px;;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19px;
   }
   &__form {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 36px 67px 67px 67px 127px 69px;
+    grid-row-gap: 19px;
+    max-width: 640px;
     color: #fff;
     legend {
-      font-size: 28px;
+      font-size: 20px;
+      line-height: 24px;
       font-style: normal;
       font-weight: 700;
+    }
+    label {
+      display: grid;
+    }
+    input, textarea {
+      padding: 9px 13px;
+      height: 40px;
+      font-size: 15px;
+      background-color: #FFFFFF;
+      border: 1px solid #292929;
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+    textarea {
+      height: 96px;
+    }
+    button {
+      width: 201px;
+      height: 53px;
+      margin: 17px auto 0;
+      color: #fff;
+      text-transform: uppercase;
+      background-color: $color-orange;
+      border-radius: 4px;
+      &:hover {
+        background-color: #df6f00;
+      }
     }
   }
 }
 
 @media (min-width: $desktop-width){
   .form-section {
-    padding: 128px 169px 120px 200px;
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 361px 640px;
+      grid-column-gap: 231px;
+      padding: 128px 169px 71px 200px;
+      box-sizing: border-box;
+    }
+    &__title {
+      font-size: 55px;
+      line-height: 55px;
+    }
+    &__form {
+      grid-template-columns: 308px 316px;
+      grid-template-rows: 36px 60px 60px 127px 100px;
+      grid-column-gap: 16px;
+      grid-row-gap: 32px;
+      color: #fff;
+      legend {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-bottom: 0;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+      }
+      label, button {
+        padding-left: 0;
+        margin: 0;
+      }
+      input, textarea {
+        margin: 5px 0 0;
+      }
+    }
+    &__firstname {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    &__lastname {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    &__email {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+    &__massage {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 5;
+    }
+    &__button {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 5;
+      grid-row-end: 6;
+    }
   }
 }
