@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 700px;
   padding: 100px 28px 97px;
   &__title {
     margin-bottom: 16px;
@@ -61,6 +61,7 @@
     position: absolute;
     bottom: 29px;
     left: 50%;
+    width: fit-content;
     transform: translateX(-50%);
     color: #fff;
     font-size: 13px;
@@ -76,6 +77,7 @@
     grid-template-rows: 95px 63px 92px 193px;
     grid-column-gap: 140px;
     padding: 114px 137px 97px 160px;
+    max-width: 1300px;
     &__title {
       grid-column-start: 1;
       grid-column-end: 2;

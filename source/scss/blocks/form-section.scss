@@ -6,7 +6,7 @@
   &__wrapper {
     padding: 42px 41px 40px 28px;
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 600px;
     display: grid; 
   }
   &__title {
@@ -71,6 +71,7 @@
       grid-template-columns: 361px 640px;
       grid-column-gap: 231px;
       padding: 128px 169px 71px 200px;
+      max-width: 1600px;
       box-sizing: border-box;
     }
     &__title {
