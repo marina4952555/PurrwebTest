@@ -90,6 +90,9 @@
     &__list {
       grid-template-columns: 1fr 1fr;
     }
+    &__heading {
+      text-align: right;
+    }
   }
 }
 
@@ -102,7 +105,6 @@
     }
     &__heading {
       margin-bottom: 69px;
-      text-align: right;
       font-size: 60px;
       line-height: 72px;
       &:after {
