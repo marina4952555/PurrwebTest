@@ -1466,8 +1466,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
   var infoVideo = document.querySelector('.info__video');
   var closePopupBtn = document.querySelector('.popup__hide-button');
   window.addEventListener('keypress', function (e) {
-    console.log(e.key);
-
     if (e.code === 'Escape') {
       popupWindow.classList.remove(SHOW_POPUP_CLASSNAME);
     }

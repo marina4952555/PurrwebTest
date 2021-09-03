@@ -8,7 +8,6 @@
   const closePopupBtn = document.querySelector('.popup__hide-button');
 
   window.addEventListener('keypress', (e) => {
-    console.log(e.key);
     if (e.code === 'Escape') {
       popupWindow.classList.remove(SHOW_POPUP_CLASSNAME);
     }

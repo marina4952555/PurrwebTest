@@ -22,18 +22,18 @@
     font-weight: 600;
     line-height: 19px;
   }
+  &__heading {
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
   &__form {
     display: grid;
     grid-template-rows: 36px 67px 67px 67px 127px 69px;
     grid-row-gap: 19px;
     max-width: 640px;
     color: #fff;
-    legend {
-      font-size: 20px;
-      line-height: 24px;
-      font-style: normal;
-      font-weight: 700;
-    }
     label {
       display: grid;
     }
@@ -78,22 +78,22 @@
       font-size: 55px;
       line-height: 55px;
     }
+    &__heading {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      margin-bottom: 0;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+    }
     &__form {
       grid-template-columns: 308px 316px;
       grid-template-rows: 36px 60px 60px 127px 100px;
       grid-column-gap: 16px;
       grid-row-gap: 32px;
       color: #fff;
-      legend {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        margin-bottom: 0;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 700;
-      }
       label, button {
         padding-left: 0;
         margin: 0;
